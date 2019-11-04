@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.eternity.theater.step01</OriginalElement>
+  <nodes>
+    <node x="540.0" y="677.5">org.eternity.theater.step01.Invitation</node>
+    <node x="240.0" y="226.0">org.eternity.theater.step01.Ticket</node>
+    <node x="-168.0" y="14.5">org.eternity.theater.step01.TicketSeller</node>
+    <node x="-124.5" y="414.5">org.eternity.theater.step01.Audience</node>
+    <node x="204.5" y="577.5">org.eternity.theater.step01.Bag</node>
+    <node x="-147.5" y="214.5">org.eternity.theater.step01.Theater</node>
+    <node x="195.0" y="-18.5">org.eternity.theater.step01.TicketOffice</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.eternity.theater.step01.Theater" target="org.eternity.theater.step01.Audience">
+      <point x="0.0" y="48.5" />
+      <point x="0.0" y="-48.5" />
+    </edge>
+    <edge source="org.eternity.theater.step01.Theater" target="org.eternity.theater.step01.Ticket">
+      <point x="104.5" y="-0.0" />
+      <point x="-77.0" y="-0.0" />
+    </edge>
+    <edge source="org.eternity.theater.step01.Bag" target="org.eternity.theater.step01.Ticket">
+      <point x="0.0" y="-125.5" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="org.eternity.theater.step01.Audience" target="org.eternity.theater.step01.Bag">
+      <point x="0.0" y="48.5" />
+      <point x="-43.0" y="703.0" />
+      <point x="-112.5" y="-0.0" />
+    </edge>
+    <edge source="org.eternity.theater.step01.TicketSeller" target="org.eternity.theater.step01.TicketOffice">
+      <point x="0.0" y="-48.5" />
+      <point x="-43.0" y="-97.0" />
+      <point x="317.0" y="-97.0" />
+      <point x="0.0" y="-81.5" />
+    </edge>
+    <edge source="org.eternity.theater.step01.Theater" target="org.eternity.theater.step01.TicketSeller">
+      <point x="0.0" y="-48.5" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="org.eternity.theater.step01.TicketOffice" target="org.eternity.theater.step01.Ticket">
+      <point x="122.0" y="-0.0" />
+      <point x="517.0" y="63.0" />
+      <point x="517.0" y="263.0" />
+      <point x="77.0" y="-0.0" />
+    </edge>
+    <edge source="org.eternity.theater.step01.Bag" target="org.eternity.theater.step01.Invitation">
+      <point x="112.5" y="-0.0" />
+      <point x="-97.0" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="526.0" y="463.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
